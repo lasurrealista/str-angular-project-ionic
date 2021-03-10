@@ -1,0 +1,15 @@
+<ng-container *ngFor="let user of userList$ | async">
+  <ion-card class="card-center">
+    <img class="card-image" [src]="user.photo" alt="...">
+    <ion-card-header>
+      <ion-card-title class="card-title">{{ user.name }}</ion-card-title>
+    </ion-card-header>
+    <ion-card-content class="card-content">
+      <p> {{ user.age }} years old</p>
+      <p>Job: {{ user.description }}</p>
+      <p>City: {{ user.location.city }}</p>
+      <p>Interests: {{ user.interests[0] }},
+        {{ user.interests[1] }}, {{ user.interests[2] }}</p>
+    </ion-card-content>
+  </ion-card>
+</ng-container>

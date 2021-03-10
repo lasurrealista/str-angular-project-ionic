@@ -1,0 +1,18 @@
+.card {
+  &-center {
+    display: block;
+    margin: 1rem;
+    width: 90%;
+  }
+
+  &-image {
+    height: 100%;
+    width: 100%;
+  }
+
+  &-content, &-title {
+    text-align: center;
+  }
+}
+
+
