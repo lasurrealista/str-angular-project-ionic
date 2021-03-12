@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { User } from '../model/user';
 
 @Component({
   selector: 'app-tab3',
@@ -6,6 +7,8 @@ import { Component } from '@angular/core';
   styleUrls: ['tab3.page.scss']
 })
 export class Tab3Page {
+
+  @Input() user = new User();
 
   constructor() {}
 

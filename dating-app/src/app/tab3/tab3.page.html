@@ -1,17 +1,56 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Profile
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
+<ion-content>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Profile</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <form #userForm="ngForm">
 
-  <app-explore-container name="Profile"></app-explore-container>
+    <ion-item>
+      <ion-label class="label" position="floating">Name</ion-label>
+      <ion-input class="input" inputmode="text" name="name" [(ngModel)]="user.name">
+      </ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label class="label" position="floating">Gender</ion-label>
+      <ion-input class="input" inputmode="text" name="gender" [(ngModel)]="user.gender">
+      </ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label class="label" position="floating">Age</ion-label>
+      <ion-input class="input" inputmode="number" name="age" [(ngModel)]="user.age"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label class="label" position="floating">Description</ion-label>
+      <ion-textarea name="description" [(ngModel)]="user.description">
+      </ion-textarea>
+    </ion-item>
+
+    <ion-item>
+      <ion-label class="label" position="floating">Address</ion-label>
+      <ion-input class="input" inputmode="text" placeholder="Zip Code" name="zip" [(ngModel)]="user.location.zip">
+      </ion-input>
+      <ion-input inputmode="text" placeholder="City" name="city" [(ngModel)]="user.location.city">
+      </ion-input>
+      <ion-input class="input" inputmode="text" placeholder="Address" name="address"
+        [(ngModel)]="user.location.address"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label class="label" position="floating">Interests</ion-label>
+      <ion-input class="input" placeholder="1" name="interest-first" [(ngModel)]="user.interests[0]"></ion-input>
+      <ion-input placeholder="2" name="interest-first" [(ngModel)]="user.interests[1]"></ion-input>
+      <ion-input class="input" placeholder="3" name="interest-first" [(ngModel)]="user.interests[2]"></ion-input>
+    </ion-item>
+
+    <div class="buttons-div">
+      <ion-fab-button>
+        <ion-icon name="camera"></ion-icon>
+      </ion-fab-button>
+      <ion-fab-button [disabled]="!userForm.form.valid" type="submit" color="success">
+        <ion-icon name="save"></ion-icon>
+      </ion-fab-button>
+    </div>
+
+  </form>
+
 </ion-content>
