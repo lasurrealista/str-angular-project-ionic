@@ -4,35 +4,36 @@
 
     <ion-item>
       <ion-label class="label" position="floating">Name</ion-label>
-      <ion-input class="input" inputmode="text" name="name" [(ngModel)]="user.name">
+      <ion-input class="input" inputmode="text" name="name" [(ngModel)]="user.name" required>
       </ion-input>
     </ion-item>
 
     <ion-item>
       <ion-label class="label" position="floating">Gender</ion-label>
-      <ion-input class="input" inputmode="text" name="gender" [(ngModel)]="user.gender">
+      <ion-input class="input" inputmode="text" name="gender" [(ngModel)]="user.gender" required>
       </ion-input>
     </ion-item>
 
     <ion-item>
       <ion-label class="label" position="floating">Age</ion-label>
-      <ion-input class="input" inputmode="number" name="age" [(ngModel)]="user.age"></ion-input>
+      <ion-input class="input" inputmode="number" name="age" [(ngModel)]="user.age" required></ion-input>
     </ion-item>
 
     <ion-item>
       <ion-label class="label" position="floating">Description</ion-label>
-      <ion-textarea name="description" [(ngModel)]="user.description">
+      <ion-textarea name="description" [(ngModel)]="user.description" required>
       </ion-textarea>
     </ion-item>
 
     <ion-item>
-      <ion-label class="label" position="floating">Address</ion-label>
-      <ion-input class="input" inputmode="text" placeholder="Zip Code" name="zip" [(ngModel)]="user.location.zip">
+      <ion-label class="label" position="floating" required>Address</ion-label>
+      <ion-input class="input" inputmode="text" placeholder="Zip Code" name="zip" [(ngModel)]="user.location.zip"
+        required>
       </ion-input>
-      <ion-input inputmode="text" placeholder="City" name="city" [(ngModel)]="user.location.city">
+      <ion-input inputmode="text" placeholder="City" name="city" [(ngModel)]="user.location.city" required>
       </ion-input>
-      <ion-input class="input" inputmode="text" placeholder="Address" name="address"
-        [(ngModel)]="user.location.address"></ion-input>
+      <ion-input class="input" inputmode="text" placeholder="Address" name="address" [(ngModel)]="user.location.address"
+        required></ion-input>
     </ion-item>
 
     <ion-item>
