@@ -27,6 +27,8 @@ export class FormInputErrorComponent implements OnInit {
                       return `Must be at least ${this.form.controls[this.formInput].errors.minlength.requiredLength} characters long.`;
                     case 'maxlength':
                       return `Must be maximum ${this.form.controls[this.formInput].errors.maxlength.requiredLength} characters long.`;
+                    case 'pattern':
+                      return `Enter a number between 18 and 99.`
                     default:
                       return this.form.controls[this.formInput].errors[errorName];
                 }

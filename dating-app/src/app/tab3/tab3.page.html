@@ -14,6 +14,7 @@
       <ion-input formControlName="gender" class="input" inputmode="text" name="gender" [(ngModel)]="user.gender"
         required>
       </ion-input>
+      <small class="small">Please enter 'Female' or 'Male.'</small>
     </ion-item>
 
     <ion-item>
@@ -21,6 +22,7 @@
       <ion-input formControlName="age" class="input" inputmode="number" name="age" [(ngModel)]="user.age" required>
       </ion-input>
     </ion-item>
+    <app-form-input-error [form]="userForm" formInput='age'></app-form-input-error>
 
     <ion-item>
       <ion-label class="label" position="floating">Description</ion-label>
@@ -35,6 +37,7 @@
         [(ngModel)]="user.location.zip" required>
       </ion-input>
     </ion-item>
+    <app-form-input-error [form]="userForm" formInput='zip'></app-form-input-error>
 
     <ion-item>
       <ion-label class="label" position="floating" required>City</ion-label>
