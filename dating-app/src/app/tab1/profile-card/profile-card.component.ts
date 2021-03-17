@@ -19,5 +19,10 @@ export class ProfileCardComponent implements OnInit {
   ngOnInit(): void {
     this.userService.getAll();
   }
+  phrase: string = '';
+
+  searchEvent(event: Event): void {
+    this.phrase = (event.target as HTMLInputElement).value;
+  }
 
 }
