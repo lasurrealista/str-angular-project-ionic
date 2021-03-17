@@ -9,6 +9,7 @@ import { Tab1PageRoutingModule } from './tab1-routing.module';
 import { ProfileCardComponent } from './profile-card/profile-card.component';
 import { FilterPipe } from '../pipe/filter.pipe';
 import { MatchPipe } from '../pipe/match.pipe';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   imports: [
@@ -21,7 +22,7 @@ import { MatchPipe } from '../pipe/match.pipe';
   exports: [
     ProfileCardComponent,
   ],
-  declarations: [Tab1Page, ProfileCardComponent, FilterPipe, MatchPipe],
+  declarations: [Tab1Page, ProfileCardComponent, HomeComponent, FilterPipe, MatchPipe],
   schemas:[
     CUSTOM_ELEMENTS_SCHEMA
   ]

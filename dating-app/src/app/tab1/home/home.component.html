@@ -1,0 +1,24 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <div class="buttons-div">
+      <ion-fab-button (click)="all = true" class="mx-auto" color="success">
+        <ion-icon name="people-circle-outline"></ion-icon>
+      </ion-fab-button>
+      <ion-fab-button (click)="all = false" class="mx-auto" color="danger">
+        <ion-icon name="heart-circle-outline"></ion-icon>
+      </ion-fab-button>
+    </div>
+  </ion-toolbar>
+</ion-header>
+
+<ion-searchbar showcancelbutton="" (ionInput)="searchEvent($event)"></ion-searchbar>
+
+<div *ngIf="!all">
+  <app-card *ngFor="let user of userList$ | async | match:true | filter:phrase" [user]="user" [all]="all">
+  </app-card>
+</div>
+
+<div *ngIf="all">
+  <app-card *ngFor="let user of userList$ | async | filter:phrase" [user]="user" [all]="all">
+  </app-card>
+</div>
