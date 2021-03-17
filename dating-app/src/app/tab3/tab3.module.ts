@@ -8,6 +8,7 @@ import { ExploreContainerComponentModule } from '../explore-container/explore-co
 
 import { Tab3PageRoutingModule } from './tab3-routing.module';
 import { FormInputErrorComponent } from '../../app/tab3/form-input-error/form-input-error.component';
+import { ProfileComponent } from './profile/profile.component';
 
 @NgModule({
   imports: [
@@ -21,6 +22,7 @@ import { FormInputErrorComponent } from '../../app/tab3/form-input-error/form-in
   ],
   declarations: [
     Tab3Page,
-    FormInputErrorComponent]
+    FormInputErrorComponent,
+    ProfileComponent]
 })
 export class Tab3PageModule {}
