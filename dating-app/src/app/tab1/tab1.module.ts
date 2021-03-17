@@ -8,6 +8,7 @@ import { ExploreContainerComponentModule } from '../explore-container/explore-co
 import { Tab1PageRoutingModule } from './tab1-routing.module';
 import { ProfileCardComponent } from './profile-card/profile-card.component';
 import { FilterPipe } from '../pipe/filter.pipe';
+import { MatchPipe } from '../pipe/match.pipe';
 
 @NgModule({
   imports: [
@@ -20,7 +21,7 @@ import { FilterPipe } from '../pipe/filter.pipe';
   exports: [
     ProfileCardComponent,
   ],
-  declarations: [Tab1Page, ProfileCardComponent, FilterPipe],
+  declarations: [Tab1Page, ProfileCardComponent, FilterPipe, MatchPipe],
   schemas:[
     CUSTOM_ELEMENTS_SCHEMA
   ]

@@ -13,7 +13,8 @@
     "city": "San Luis del Palmar",
     "address": "53940 Jay Alley"
   },
-  "interests": ["art", "sports", "gaming"]
+  "interests": ["art", "sports", "gaming"],
+  "liked": false
 }, {
   "id": 2,
   "name": "Anne Ghelarducci",
@@ -27,7 +28,8 @@
     "city": "Macon",
     "address": "1053 Crest Line Parkway"
   },
-  "interests": ["art", "child care", "pet care"]
+  "interests": ["art", "child care", "pet care"],
+  "liked": false
 }, {
   "id": 3,
   "name": "Fons Fenix",
@@ -41,7 +43,8 @@
     "city": "Gorichevo",
     "address": "496 Hoard Terrace"
   },
-  "interests": ["blogging", "photography", "volunteer work"]
+  "interests": ["blogging", "photography", "volunteer work"],
+  "liked": false
 }, {
   "id": 4,
   "name": "Tobe Bourhill",
@@ -55,7 +58,8 @@
     "city": "Maasin",
     "address": "123 Alpine Pass"
   },
-  "interests": ["outdoow activities", "sports", "hiking"]
+  "interests": ["outdoow activities", "sports", "hiking"],
+  "liked": false
 }, {
   "id": 5,
   "name": "Marcello Judge",
@@ -69,7 +73,8 @@
     "city": "Norrahammar",
     "address": "64920 Dixon Center"
   },
-  "interests": ["playing the cello", "yoga", "writing"]
+  "interests": ["playing the cello", "yoga", "writing"],
+  "liked": false
 }, {
   "id": 6,
   "name": "Abigail Bubbear",
@@ -83,7 +88,8 @@
     "city": "San Antonio",
     "address": "45 Union Hill"
   },
-  "interests": ["traveling", "cooking", "gaming"]
+  "interests": ["traveling", "cooking", "gaming"],
+  "liked": true
 }, {
   "id": 7,
   "name": "Carl Maplethorpe",
@@ -97,7 +103,8 @@
     "city": "Raszowa",
     "address": "6 Steensland Parkway"
   },
-  "interests": ["traveling", "cooking", "painting"]
+  "interests": ["traveling", "cooking", "painting"],
+  "liked": true
 }, {
   "id": 8,
   "name": "Alaric Dearden",
@@ -111,7 +118,8 @@
     "city": "Slavonice",
     "address": "44 Arapahoe Court"
   },
-  "interests": ["gardening", "cooking", "chess"]
+  "interests": ["gardening", "cooking", "chess"],
+  "liked": true
 }, {
   "id": 9,
   "name": "Sherline Sertin",
@@ -125,7 +133,8 @@
     "city": "Butterworth",
     "address": "62567 Duke Trail"
   },
-  "interests": ["traveling", "reading", "chess"]
+  "interests": ["traveling", "reading", "chess"],
+  "liked": true
 }, {
   "id": 10,
   "name": "Cordie Scruton",
@@ -139,7 +148,8 @@
     "city": "Pouso Alegre",
     "address": "68294 Blaine Street"
   },
-  "interests": ["traveling", "reading", "chess"]
+  "interests": ["traveling", "reading", "chess"],
+  "liked": true
 }, {
   "id": 11,
   "name": "Belita Stebbings",
@@ -153,7 +163,8 @@
     "city": "Novogurovskiy",
     "address": "19438 Armistice Pass"
   },
-  "interests": ["bird watching", "stamp collecting", "sports"]
+  "interests": ["bird watching", "stamp collecting", "sports"],
+  "liked": true
 }, {
   "id": 12,
   "name": "Modesty Bootland",
@@ -167,7 +178,8 @@
     "city": "Oss",
     "address": "53 Starling Hill"
   },
-  "interests": ["theatre", "nature", "sports"]
+  "interests": ["theatre", "nature", "sports"],
+  "liked": true
 }, {
   "id": 13,
   "name": "Matteo Pargiter",
@@ -181,7 +193,8 @@
     "city": "Mosrentgen",
     "address": "99612 Mayfield Junction"
   },
-  "interests": ["foreign languages", "traveling", "history"]
+  "interests": ["foreign languages", "traveling", "history"],
+  "liked": false
 }, {
   "id": 14,
   "name": "Nedi Matteris",
@@ -195,7 +208,8 @@
   "city": "Podedwórze",
   "address": "63382 Burning Wood Place"
 },
-  "interests": ["foreign languages", "traveling", "art"]
+  "interests": ["foreign languages", "traveling", "art"],
+  "liked": false
 }, {
   "id": 15,
   "name": "Ken Slides",
@@ -209,7 +223,8 @@
     "city": "Escada",
     "address": "64726 Bonner Center"
   },
-  "interests": ["listening to music", "blogging", "history"]
+  "interests": ["listening to music", "blogging", "history"],
+  "liked": false
 }, {
   "id": 16,
   "name": "Billy Stanaway",
@@ -223,7 +238,8 @@
     "city": "Pokrov",
     "address": "78 Darwin Alley"
   },
-  "interests": ["listening to music", "biking", "community service"]
+  "interests": ["listening to music", "biking", "community service"],
+  "liked": false
 }, {
   "id": 17,
   "name": "Rozanne Aveyard",
@@ -237,7 +253,8 @@
     "city": "Ajuda",
     "address": "48563 Dottie Street"
   },
-  "interests": ["listening to music", "sports", "community service"]
+  "interests": ["listening to music", "sports", "community service"],
+  "liked": false
 }, {
   "id": 18,
   "name": "Willy Kirk",
@@ -251,7 +268,8 @@
     "city": "Tigbaw",
     "address": "0 Sutteridge Point"
   },
-  "interests": ["art", "theatre", "painting"]
+  "interests": ["art", "theatre", "painting"],
+  "liked": false
 }, {
   "id": 19,
   "name": "Winnie Fist",
@@ -265,7 +283,8 @@
     "city": "Quiling",
     "address": "607 Grover Center"
   },
-  "interests": ["binge-watching", "baking", "car fixing"]
+  "interests": ["binge-watching", "baking", "car fixing"],
+  "liked": false
 }, {
   "id": 20,
   "name": "Omar Santacrole",
@@ -279,7 +298,8 @@
     "city": "Meylan",
     "address": "763 Rowland Place"
   },
-  "interests": ["binge-watching", "knitting", "car fixing"]
+  "interests": ["binge-watching", "knitting", "car fixing"],
+  "liked": true
 }, {
   "id": 21,
   "name": "Antonin Gianettini",
@@ -293,7 +313,8 @@
     "city": "Pukkila",
     "address": "3 Veith Court"
   },
-  "interests": ["binge-watching", "poetry", "pole dancing"]
+  "interests": ["binge-watching", "poetry", "pole dancing"],
+  "liked": true
 }, {
   "id": 22,
   "name": "Gerti Wyllie",
@@ -307,7 +328,8 @@
     "city": "Paris 08",
     "address": "5 Riverside Center"
   },
-  "interests": ["art", "pottery", "scuba diving"]
+  "interests": ["art", "pottery", "scuba diving"],
+  "liked": true
 }, {
   "id": 23,
   "name": "Janith Cheevers",
@@ -321,7 +343,8 @@
     "city": "Umag",
     "address": "371 Monica Lane"
   },
-  "interests": ["social media", "sewing", "scuba diving"]
+  "interests": ["social media", "sewing", "scuba diving"],
+  "liked": true
 }, {
   "id": 24,
   "name": "Ardath Samper",
@@ -335,7 +358,8 @@
     "city": "Třemošnice",
     "address": "19852 Darwin Point"
   },
-  "interests": ["social media", "meditation", "makeup"]
+  "interests": ["social media", "meditation", "makeup"],
+  "liked": true
 }, {
   "id": 25,
   "name": "Billie Argontt",
@@ -349,6 +373,39 @@
     "city": "Niigata-shi",
     "address": "31677 Sutherland Alley"
   },
-  "interests": ["puzzles", "reading", "singing"]
-}]
+  "interests": ["puzzles", "reading", "singing"],
+  "liked": true
+}],
+  "connections": [
+  {
+    "id": 1,
+    "user1": 1,
+    "user2": 25,
+    "accepted": true
+  },
+  {
+    "id": 2,
+    "user1": 2,
+    "user2": 24,
+    "accepted": false
+  },
+  {
+    "id": 3,
+    "user1": 3,
+    "user2": 23,
+    "accepted": false
+  },
+  {
+    "id": 4,
+    "user1": 4,
+    "user2": 22,
+    "accepted": true
+  },
+  {
+    "id": 5,
+    "user1": 5,
+    "user2": 21,
+    "accepted": true
+  }
+]
 }

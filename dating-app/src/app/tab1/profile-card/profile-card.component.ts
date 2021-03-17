@@ -13,6 +13,7 @@ export class ProfileCardComponent implements OnInit {
 
   user: User = new User();
   userList$: Observable<User[]> = this.userService.getAll();
+  all: boolean = true;
 
   constructor(http: HttpClient, public userService: UserService) { }
 
