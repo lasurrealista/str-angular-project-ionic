@@ -1,6 +1,7 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, NgForm, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
+import { Observable } from 'rxjs';
 import { User } from 'src/app/model/user';
 import { UserService } from 'src/app/service/user.service';
 
@@ -13,6 +14,8 @@ export class ProfileComponent implements OnInit {
 
   userForm: FormGroup;
   @Input() user = new User();
+
+  user$: Observable<User> = this.userService.get(1);
 
   constructor(
     private formBuilder: FormBuilder,
