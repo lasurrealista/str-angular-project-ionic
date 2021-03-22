@@ -385,24 +385,24 @@
   },
   {
     "id": 2,
-    "user1": 2,
+    "user1": 1,
     "user2": 24,
     "accepted": false
   },
   {
-    "id": 3,
+    "id": 1,
     "user1": 3,
     "user2": 23,
     "accepted": false
   },
   {
-    "id": 4,
+    "id": 1,
     "user1": 4,
     "user2": 22,
     "accepted": true
   },
   {
-    "id": 5,
+    "id": 1,
     "user1": 5,
     "user2": 21,
     "accepted": true

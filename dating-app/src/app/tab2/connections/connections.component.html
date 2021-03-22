@@ -1,0 +1,23 @@
+<ion-content fullscreen>
+  <ng-container *ngFor="let user of userList$ | async">
+    <ng-container *ngFor="let connection of connectionList$ | async | accepted:true ">
+      <div *ngIf="user.id == connection.user2">
+        <ion-card class="card-center">
+          <img class="card-image" [src]="user.photo" alt="...">
+          <ion-card-header>
+            <ion-card-title class="card-title">{{ user.name }}</ion-card-title>
+          </ion-card-header>
+          <ion-card-content class="card-content">
+            <p> {{ user.age }} years old</p>
+            <p>Job: {{ user.description }}</p>
+            <p>Interests: {{ user.interests[0] }},
+              {{ user.interests[1] }}, {{ user.interests[2] }}</p>
+            <p>Address {{ user.location.address }}</p>
+            <p>Zip: {{ user.location.zip }}</p>
+            <p>City: {{ user.location.city }}</p>
+          </ion-card-content>
+        </ion-card>
+      </div>
+    </ng-container>
+  </ng-container>
+</ion-content>

@@ -26,5 +26,4 @@ export class HomeComponent implements OnInit {
     this.phrase = (event.target as HTMLInputElement).value;
   }
 
-
 }

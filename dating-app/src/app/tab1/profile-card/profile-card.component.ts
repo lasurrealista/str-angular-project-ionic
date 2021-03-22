@@ -24,5 +24,4 @@ export class ProfileCardComponent implements OnInit {
   searchEvent(event: Event): void {
     this.phrase = (event.target as HTMLInputElement).value;
   }
-
 }
