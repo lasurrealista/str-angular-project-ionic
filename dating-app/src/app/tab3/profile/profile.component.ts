@@ -1,18 +1,24 @@
-import { Component, Input } from '@angular/core';
-import { FormBuilder, FormGroup, Validators } from '@angular/forms';
+import { Component, Input, OnInit } from '@angular/core';
+import { FormBuilder, FormGroup, NgForm, Validators } from '@angular/forms';
+import { Router } from '@angular/router';
 import { User } from 'src/app/model/user';
+import { UserService } from 'src/app/service/user.service';
 
 @Component({
   selector: 'app-profile',
   templateUrl: './profile.component.html',
   styleUrls: ['./profile.component.scss'],
 })
-export class ProfileComponent {
+export class ProfileComponent implements OnInit {
 
   userForm: FormGroup;
   @Input() user = new User();
 
-  constructor(private formBuilder: FormBuilder) {
+  constructor(
+    private formBuilder: FormBuilder,
+    private userService: UserService,
+    private router: Router,
+    ) {
     this.userForm = this.formBuilder.group(
       {
         name: ['', [Validators.required, Validators.minLength(3), Validators.maxLength(25)]],
@@ -28,5 +34,12 @@ export class ProfileComponent {
       }
     );
   }
+  onSubmit(form: FormGroup): void {
+    this.userService.update(this.user).subscribe(() =>
+    this.router.navigate(['/tabs/tab3']));
+  }
 
+  ngOnInit() {
+    this.userService.get(0);
+  }
 }

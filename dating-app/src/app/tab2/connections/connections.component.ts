@@ -24,7 +24,14 @@ export class ConnectionsComponent implements OnInit {
   constructor(http: HttpClient, public userService: UserService, public connectionService: ConnectionService) { }
 
   ngOnInit() {
-    this.connectionService.getAll();
+
   }
 
+  toDislike(accepted: boolean, connection: Connection) {
+
+    connection.accepted = accepted;
+    this.connectionService.update(connection).subscribe(
+    () => this.connectionService.getAll()
+  )
+}
 }

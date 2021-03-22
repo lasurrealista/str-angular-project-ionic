@@ -14,11 +14,20 @@
   </ion-card-content>
 
   <div class="buttons-div">
-    <ion-fab-button class="mx-auto" color="danger">
-      <ion-icon name="thumbs-down"></ion-icon>
-    </ion-fab-button>
-    <ion-fab-button class="mx-auto" color="success">
-      <ion-icon name="thumbs-up"></ion-icon>
-    </ion-fab-button>
+    <div *ngIf="!all">
+      <ion-fab-button (click)="toDislike(false, user)" class="mx-auto" color="danger">
+        <ion-icon name="thumbs-down"></ion-icon>
+      </ion-fab-button>
+    </div>
+  </div>
+  <div *ngIf="all">
+    <div class="buttons-div">
+      <ion-fab-button (click)="toDislike(false, user)" class="mx-auto" color="danger">
+        <ion-icon name="thumbs-down"></ion-icon>
+      </ion-fab-button>
+      <ion-fab-button (click)="toLike(true, user)" class="mx-auto" color="success">
+        <ion-icon name="thumbs-up"></ion-icon>
+      </ion-fab-button>
+    </div>
   </div>
 </ion-card>

@@ -1,411 +1,536 @@
 {
-  "users":
-  [{
-  "id": 1,
-  "name": "Geraldine Kovalski",
-  "gender": "Female",
-  "age": 30,
-  "photo": "../../assets/img/1.jpg",
-  "description": "Teacher",
-  "location": {
-    "id": 1,
-    "zip": "3403",
-    "city": "San Luis del Palmar",
-    "address": "53940 Jay Alley"
-  },
-  "interests": ["art", "sports", "gaming"],
-  "liked": false
-}, {
-  "id": 2,
-  "name": "Anne Ghelarducci",
-  "gender": "Female",
-  "age": 28,
-  "photo": "../../assets/img/2.jpg",
-  "description": "Graphic Designer",
-  "location": {
-    "id": 2,
-    "zip": "31205",
-    "city": "Macon",
-    "address": "1053 Crest Line Parkway"
-  },
-  "interests": ["art", "child care", "pet care"],
-  "liked": false
-}, {
-  "id": 3,
-  "name": "Fons Fenix",
-  "gender": "Male",
-  "age": 39,
-  "photo": "../../assets/img/12.jpg",
-  "description": "Operator",
-  "location":  {
-    "id": 3,
-    "zip": "7337",
-    "city": "Gorichevo",
-    "address": "496 Hoard Terrace"
-  },
-  "interests": ["blogging", "photography", "volunteer work"],
-  "liked": false
-}, {
-  "id": 4,
-  "name": "Tobe Bourhill",
-  "gender": "Male",
-  "age": 56,
-  "photo": "../../assets/img/13.jpg",
-  "description": "Developer I",
-  "location": {
-    "id": 4,
-    "zip": "6600",
-    "city": "Maasin",
-    "address": "123 Alpine Pass"
-  },
-  "interests": ["outdoow activities", "sports", "hiking"],
-  "liked": false
-}, {
-  "id": 5,
-  "name": "Marcello Judge",
-  "gender": "Male",
-  "age": 23,
-  "photo": "../../assets/img/14.jpg",
-  "description": "Health Coach II",
-  "location":  {
-    "id": 5,
-    "zip": "562 24",
-    "city": "Norrahammar",
-    "address": "64920 Dixon Center"
-  },
-  "interests": ["playing the cello", "yoga", "writing"],
-  "liked": false
-}, {
-  "id": 6,
-  "name": "Abigail Bubbear",
-  "gender": "Female",
-  "age": 41,
-  "photo": "../../assets/img/3.jpg",
-  "description": "Paralegal",
-  "location": {
-    "id": 6,
-    "zip": "78285",
-    "city": "San Antonio",
-    "address": "45 Union Hill"
-  },
-  "interests": ["traveling", "cooking", "gaming"],
-  "liked": true
-}, {
-  "id": 7,
-  "name": "Carl Maplethorpe",
-  "gender": "Male",
-  "age": 48,
-  "photo": "../../assets/img/15.jpg",
-  "description": "Software Test Engineer II",
-  "location":  {
-    "id": 7,
-    "zip": "47-232",
-    "city": "Raszowa",
-    "address": "6 Steensland Parkway"
-  },
-  "interests": ["traveling", "cooking", "painting"],
-  "liked": true
-}, {
-  "id": 8,
-  "name": "Alaric Dearden",
-  "gender": "Male",
-  "age": 44,
-  "photo": "../../assets/img/16.jpg",
-  "description": "VP Quality Control",
-  "location":  {
-    "id": 8,
-    "zip": "378 81",
-    "city": "Slavonice",
-    "address": "44 Arapahoe Court"
-  },
-  "interests": ["gardening", "cooking", "chess"],
-  "liked": true
-}, {
-  "id": 9,
-  "name": "Sherline Sertin",
-  "gender": "Female",
-  "age": 42,
-  "photo": "../../assets/img/4.jpg",
-  "description": "Civil Engineer",
-  "location":  {
-    "id": 9,
-    "zip": "13800",
-    "city": "Butterworth",
-    "address": "62567 Duke Trail"
-  },
-  "interests": ["traveling", "reading", "chess"],
-  "liked": true
-}, {
-  "id": 10,
-  "name": "Cordie Scruton",
-  "gender": "Male",
-  "age": 19,
-  "photo": "../../assets/img/17.jpg",
-  "description": "Analyst Programmer",
-  "location":  {
-    "id": 10,
-    "zip": "37550-000",
-    "city": "Pouso Alegre",
-    "address": "68294 Blaine Street"
-  },
-  "interests": ["traveling", "reading", "chess"],
-  "liked": true
-}, {
-  "id": 11,
-  "name": "Belita Stebbings",
-  "gender": "Female",
-  "age": 38,
-  "photo": "../../assets/img/5.jpg",
-  "description": "Account Coordinator",
-  "location": {
-    "id": 11,
-    "zip": "301382",
-    "city": "Novogurovskiy",
-    "address": "19438 Armistice Pass"
-  },
-  "interests": ["bird watching", "stamp collecting", "sports"],
-  "liked": true
-}, {
-  "id": 12,
-  "name": "Modesty Bootland",
-  "gender": "Female",
-  "age": 32,
-  "photo": "../../assets/img/6.jpg",
-  "description": "Operator",
-  "location": {
-    "id": 12,
-    "zip": "5349",
-    "city": "Oss",
-    "address": "53 Starling Hill"
-  },
-  "interests": ["theatre", "nature", "sports"],
-  "liked": true
-}, {
-  "id": 13,
-  "name": "Matteo Pargiter",
-  "gender": "Male",
-  "age": 35,
-  "photo": "../../assets/img/18.jpg",
-  "description": "Biostatistician II",
-  "location": {
-    "id": 13,
-    "zip": "391237",
-    "city": "Mosrentgen",
-    "address": "99612 Mayfield Junction"
-  },
-  "interests": ["foreign languages", "traveling", "history"],
-  "liked": false
-}, {
-  "id": 14,
-  "name": "Nedi Matteris",
-  "gender": "Male",
-  "age": 45,
-  "photo": "../../assets/img/19.jpg",
-  "description": "Senior Developer",
-  "location": {
-  "id": 14,
-  "zip": "21-222",
-  "city": "Podedwórze",
-  "address": "63382 Burning Wood Place"
-},
-  "interests": ["foreign languages", "traveling", "art"],
-  "liked": false
-}, {
-  "id": 15,
-  "name": "Ken Slides",
-  "gender": "Male",
-  "age": 29,
-  "photo": "../../assets/img/20.jpg",
-  "description": "Database Administrator III",
-  "location":  {
-    "id": 15,
-    "zip": "55500-000",
-    "city": "Escada",
-    "address": "64726 Bonner Center"
-  },
-  "interests": ["listening to music", "blogging", "history"],
-  "liked": false
-}, {
-  "id": 16,
-  "name": "Billy Stanaway",
-  "gender": "Male",
-  "age": 56,
-  "photo": "../../assets/img/21.jpg",
-  "description": "Payment Adjustment Coordinator",
-  "location": {
-    "id": 16,
-    "zip": "601120",
-    "city": "Pokrov",
-    "address": "78 Darwin Alley"
-  },
-  "interests": ["listening to music", "biking", "community service"],
-  "liked": false
-}, {
-  "id": 17,
-  "name": "Rozanne Aveyard",
-  "gender": "Female",
-  "age": 25,
-  "photo": "../../assets/img/7.jpg",
-  "description": "Recruiting Manager",
-  "location": {
-    "id": 17,
-    "zip": "9545-015",
-    "city": "Ajuda",
-    "address": "48563 Dottie Street"
-  },
-  "interests": ["listening to music", "sports", "community service"],
-  "liked": false
-}, {
-  "id": 18,
-  "name": "Willy Kirk",
-  "gender": "Male",
-  "age": 37,
-  "photo": "../../assets/img/22.jpg",
-  "description": "Mechanical Systems Engineer",
-  "location":  {
-    "id": 18,
-    "zip": "1715",
-    "city": "Tigbaw",
-    "address": "0 Sutteridge Point"
-  },
-  "interests": ["art", "theatre", "painting"],
-  "liked": false
-}, {
-  "id": 19,
-  "name": "Winnie Fist",
-  "gender": "Female",
-  "age": 37,
-  "photo": "../../assets/img/8.jpg",
-  "description": "Product Engineer",
-  "location": {
-    "id": 19,
-    "zip": "2902",
-    "city": "Quiling",
-    "address": "607 Grover Center"
-  },
-  "interests": ["binge-watching", "baking", "car fixing"],
-  "liked": false
-}, {
-  "id": 20,
-  "name": "Omar Santacrole",
-  "gender": "Male",
-  "age": 57,
-  "photo": "../../assets/img/23.jpg",
-  "description": "Civil Engineer",
-  "location":  {
-    "id": 20,
-    "zip": "38244 CEDEX",
-    "city": "Meylan",
-    "address": "763 Rowland Place"
-  },
-  "interests": ["binge-watching", "knitting", "car fixing"],
-  "liked": true
-}, {
-  "id": 21,
-  "name": "Antonin Gianettini",
-  "gender": "Male",
-  "age": 53,
-  "photo": "../../assets/img/24.jpg",
-  "description": "Software Test Engineer IV",
-  "location":  {
-    "id": 21,
-    "zip": "07560",
-    "city": "Pukkila",
-    "address": "3 Veith Court"
-  },
-  "interests": ["binge-watching", "poetry", "pole dancing"],
-  "liked": true
-}, {
-  "id": 22,
-  "name": "Gerti Wyllie",
-  "gender": "Male",
-  "age": 42,
-  "photo": "../../assets/img/25.jpg",
-  "description": "Operator",
-  "location":  {
-    "id": 22,
-    "zip": "75367 CEDEX 08",
-    "city": "Paris 08",
-    "address": "5 Riverside Center"
-  },
-  "interests": ["art", "pottery", "scuba diving"],
-  "liked": true
-}, {
-  "id": 23,
-  "name": "Janith Cheevers",
-  "gender": "Female",
-  "age": 43,
-  "photo": "../../assets/img/9.jpg",
-  "description": "Operator",
-  "location":  {
-    "id": 23,
-    "zip": "52470",
-    "city": "Umag",
-    "address": "371 Monica Lane"
-  },
-  "interests": ["social media", "sewing", "scuba diving"],
-  "liked": true
-}, {
-  "id": 24,
-  "name": "Ardath Samper",
-  "gender": "Female",
-  "age": 28,
-  "photo": "../../assets/img/10.jpg",
-  "description": "Registered Nurse",
-  "location": {
-    "id": 24,
-    "zip": "538 43",
-    "city": "Třemošnice",
-    "address": "19852 Darwin Point"
-  },
-  "interests": ["social media", "meditation", "makeup"],
-  "liked": true
-}, {
-  "id": 25,
-  "name": "Billie Argontt",
-  "gender": "Female",
-  "age": 44,
-  "photo": "../../assets/img/11.jpg",
-  "description": "Biostatistician IV",
-  "location": {
-    "id": 25,
-    "zip": "951-8167",
-    "city": "Niigata-shi",
-    "address": "31677 Sutherland Alley"
-  },
-  "interests": ["puzzles", "reading", "singing"],
-  "liked": true
-}],
+  "users": [
+    {
+      "id": 1,
+      "name": "Geraldine Kovalski",
+      "gender": "Female",
+      "age": 30,
+      "photo": "../../assets/img/1.jpg",
+      "description": "Teacher",
+      "location": {
+        "id": 1,
+        "zip": "3403",
+        "city": "San Luis del Palmar",
+        "address": "53940 Jay Alley"
+      },
+      "interests": [
+        "art",
+        "sports",
+        "gaming"
+      ],
+      "liked": false
+    },
+    {
+      "id": 2,
+      "name": "Anne Ghelarducci",
+      "gender": "Female",
+      "age": 28,
+      "photo": "../../assets/img/2.jpg",
+      "description": "Graphic Designer",
+      "location": {
+        "id": 2,
+        "zip": "31205",
+        "city": "Macon",
+        "address": "1053 Crest Line Parkway"
+      },
+      "interests": [
+        "art",
+        "child care",
+        "pet care"
+      ],
+      "liked": false
+    },
+    {
+      "id": 3,
+      "name": "Fons Fenix",
+      "gender": "Male",
+      "age": 39,
+      "photo": "../../assets/img/12.jpg",
+      "description": "Operator",
+      "location": {
+        "id": 3,
+        "zip": "7337",
+        "city": "Gorichevo",
+        "address": "496 Hoard Terrace"
+      },
+      "interests": [
+        "blogging",
+        "photography",
+        "volunteer work"
+      ],
+      "liked": false
+    },
+    {
+      "id": 4,
+      "name": "Tobe Bourhill",
+      "gender": "Male",
+      "age": 56,
+      "photo": "../../assets/img/13.jpg",
+      "description": "Developer I",
+      "location": {
+        "id": 4,
+        "zip": "6600",
+        "city": "Maasin",
+        "address": "123 Alpine Pass"
+      },
+      "interests": [
+        "outdoow activities",
+        "sports",
+        "hiking"
+      ],
+      "liked": false
+    },
+    {
+      "id": 5,
+      "name": "Marcello Judge",
+      "gender": "Male",
+      "age": 23,
+      "photo": "../../assets/img/14.jpg",
+      "description": "Health Coach II",
+      "location": {
+        "id": 5,
+        "zip": "562 24",
+        "city": "Norrahammar",
+        "address": "64920 Dixon Center"
+      },
+      "interests": [
+        "playing the cello",
+        "yoga",
+        "writing"
+      ],
+      "liked": false
+    },
+    {
+      "id": 6,
+      "name": "Abigail Bubbear",
+      "gender": "Female",
+      "age": 41,
+      "photo": "../../assets/img/3.jpg",
+      "description": "Paralegal",
+      "location": {
+        "id": 6,
+        "zip": "78285",
+        "city": "San Antonio",
+        "address": "45 Union Hill"
+      },
+      "interests": [
+        "traveling",
+        "cooking",
+        "gaming"
+      ],
+      "liked": true
+    },
+    {
+      "id": 7,
+      "name": "Carl Maplethorpe",
+      "gender": "Male",
+      "age": 48,
+      "photo": "../../assets/img/15.jpg",
+      "description": "Software Test Engineer II",
+      "location": {
+        "id": 7,
+        "zip": "47-232",
+        "city": "Raszowa",
+        "address": "6 Steensland Parkway"
+      },
+      "interests": [
+        "traveling",
+        "cooking",
+        "painting"
+      ],
+      "liked": true
+    },
+    {
+      "id": 8,
+      "name": "Alaric Dearden",
+      "gender": "Male",
+      "age": 44,
+      "photo": "../../assets/img/16.jpg",
+      "description": "VP Quality Control",
+      "location": {
+        "id": 8,
+        "zip": "378 81",
+        "city": "Slavonice",
+        "address": "44 Arapahoe Court"
+      },
+      "interests": [
+        "gardening",
+        "cooking",
+        "chess"
+      ],
+      "liked": true
+    },
+    {
+      "id": 9,
+      "name": "Sherline Sertin",
+      "gender": "Female",
+      "age": 42,
+      "photo": "../../assets/img/4.jpg",
+      "description": "Civil Engineer",
+      "location": {
+        "id": 9,
+        "zip": "13800",
+        "city": "Butterworth",
+        "address": "62567 Duke Trail"
+      },
+      "interests": [
+        "traveling",
+        "reading",
+        "chess"
+      ],
+      "liked": true
+    },
+    {
+      "id": 10,
+      "name": "Cordie Scruton",
+      "gender": "Male",
+      "age": 19,
+      "photo": "../../assets/img/17.jpg",
+      "description": "Analyst Programmer",
+      "location": {
+        "id": 10,
+        "zip": "37550-000",
+        "city": "Pouso Alegre",
+        "address": "68294 Blaine Street"
+      },
+      "interests": [
+        "traveling",
+        "reading",
+        "chess"
+      ],
+      "liked": true
+    },
+    {
+      "id": 11,
+      "name": "Belita Stebbings",
+      "gender": "Female",
+      "age": 38,
+      "photo": "../../assets/img/5.jpg",
+      "description": "Account Coordinator",
+      "location": {
+        "id": 11,
+        "zip": "301382",
+        "city": "Novogurovskiy",
+        "address": "19438 Armistice Pass"
+      },
+      "interests": [
+        "bird watching",
+        "stamp collecting",
+        "sports"
+      ],
+      "liked": true
+    },
+    {
+      "id": 12,
+      "name": "Modesty Bootland",
+      "gender": "Female",
+      "age": 32,
+      "photo": "../../assets/img/6.jpg",
+      "description": "Operator",
+      "location": {
+        "id": 12,
+        "zip": "5349",
+        "city": "Oss",
+        "address": "53 Starling Hill"
+      },
+      "interests": [
+        "theatre",
+        "nature",
+        "sports"
+      ],
+      "liked": true
+    },
+    {
+      "id": 13,
+      "name": "Matteo Pargiter",
+      "gender": "Male",
+      "age": 35,
+      "photo": "../../assets/img/18.jpg",
+      "description": "Biostatistician II",
+      "location": {
+        "id": 13,
+        "zip": "391237",
+        "city": "Mosrentgen",
+        "address": "99612 Mayfield Junction"
+      },
+      "interests": [
+        "foreign languages",
+        "traveling",
+        "history"
+      ],
+      "liked": false
+    },
+    {
+      "id": 14,
+      "name": "Nedi Matteris",
+      "gender": "Male",
+      "age": 45,
+      "photo": "../../assets/img/19.jpg",
+      "description": "Senior Developer",
+      "location": {
+        "id": 14,
+        "zip": "21-222",
+        "city": "Podedwórze",
+        "address": "63382 Burning Wood Place"
+      },
+      "interests": [
+        "foreign languages",
+        "traveling",
+        "art"
+      ],
+      "liked": false
+    },
+    {
+      "id": 15,
+      "name": "Ken Slides",
+      "gender": "Male",
+      "age": 29,
+      "photo": "../../assets/img/20.jpg",
+      "description": "Database Administrator III",
+      "location": {
+        "id": 15,
+        "zip": "55500-000",
+        "city": "Escada",
+        "address": "64726 Bonner Center"
+      },
+      "interests": [
+        "listening to music",
+        "blogging",
+        "history"
+      ],
+      "liked": false
+    },
+    {
+      "id": 16,
+      "name": "Billy Stanaway",
+      "gender": "Male",
+      "age": 56,
+      "photo": "../../assets/img/21.jpg",
+      "description": "Payment Adjustment Coordinator",
+      "location": {
+        "id": 16,
+        "zip": "601120",
+        "city": "Pokrov",
+        "address": "78 Darwin Alley"
+      },
+      "interests": [
+        "listening to music",
+        "biking",
+        "community service"
+      ],
+      "liked": false
+    },
+    {
+      "id": 17,
+      "name": "Rozanne Aveyard",
+      "gender": "Female",
+      "age": 25,
+      "photo": "../../assets/img/7.jpg",
+      "description": "Recruiting Manager",
+      "location": {
+        "id": 17,
+        "zip": "9545-015",
+        "city": "Ajuda",
+        "address": "48563 Dottie Street"
+      },
+      "interests": [
+        "listening to music",
+        "sports",
+        "community service"
+      ],
+      "liked": false
+    },
+    {
+      "id": 18,
+      "name": "Willy Kirk",
+      "gender": "Male",
+      "age": 37,
+      "photo": "../../assets/img/22.jpg",
+      "description": "Mechanical Systems Engineer",
+      "location": {
+        "id": 18,
+        "zip": "1715",
+        "city": "Tigbaw",
+        "address": "0 Sutteridge Point"
+      },
+      "interests": [
+        "art",
+        "theatre",
+        "painting"
+      ],
+      "liked": false
+    },
+    {
+      "id": 19,
+      "name": "Winnie Fist",
+      "gender": "Female",
+      "age": 37,
+      "photo": "../../assets/img/8.jpg",
+      "description": "Product Engineer",
+      "location": {
+        "id": 19,
+        "zip": "2902",
+        "city": "Quiling",
+        "address": "607 Grover Center"
+      },
+      "interests": [
+        "binge-watching",
+        "baking",
+        "car fixing"
+      ],
+      "liked": false
+    },
+    {
+      "id": 20,
+      "name": "Omar Santacrole",
+      "gender": "Male",
+      "age": 57,
+      "photo": "../../assets/img/23.jpg",
+      "description": "Civil Engineer",
+      "location": {
+        "id": 20,
+        "zip": "38244 CEDEX",
+        "city": "Meylan",
+        "address": "763 Rowland Place"
+      },
+      "interests": [
+        "binge-watching",
+        "knitting",
+        "car fixing"
+      ],
+      "liked": true
+    },
+    {
+      "id": 21,
+      "name": "Antonin Gianettini",
+      "gender": "Male",
+      "age": 53,
+      "photo": "../../assets/img/24.jpg",
+      "description": "Software Test Engineer IV",
+      "location": {
+        "id": 21,
+        "zip": "07560",
+        "city": "Pukkila",
+        "address": "3 Veith Court"
+      },
+      "interests": [
+        "binge-watching",
+        "poetry",
+        "pole dancing"
+      ],
+      "liked": true
+    },
+    {
+      "id": 22,
+      "name": "Gerti Wyllie",
+      "gender": "Male",
+      "age": 42,
+      "photo": "../../assets/img/25.jpg",
+      "description": "Operator",
+      "location": {
+        "id": 22,
+        "zip": "75367 CEDEX 08",
+        "city": "Paris 08",
+        "address": "5 Riverside Center"
+      },
+      "interests": [
+        "art",
+        "pottery",
+        "scuba diving"
+      ],
+      "liked": true
+    },
+    {
+      "id": 23,
+      "name": "Janith Cheevers",
+      "gender": "Female",
+      "age": 43,
+      "photo": "../../assets/img/9.jpg",
+      "description": "Operator",
+      "location": {
+        "id": 23,
+        "zip": "52470",
+        "city": "Umag",
+        "address": "371 Monica Lane"
+      },
+      "interests": [
+        "social media",
+        "sewing",
+        "scuba diving"
+      ],
+      "liked": true
+    },
+    {
+      "id": 24,
+      "name": "Ardath Samper",
+      "gender": "Female",
+      "age": 28,
+      "photo": "../../assets/img/10.jpg",
+      "description": "Registered Nurse",
+      "location": {
+        "id": 24,
+        "zip": "538 43",
+        "city": "Třemošnice",
+        "address": "19852 Darwin Point"
+      },
+      "interests": [
+        "social media",
+        "meditation",
+        "makeup"
+      ],
+      "liked": true
+    },
+    {
+      "id": 25,
+      "name": "Billie Argontt",
+      "gender": "Female",
+      "age": 44,
+      "photo": "../../assets/img/11.jpg",
+      "description": "Biostatistician IV",
+      "location": {
+        "id": 25,
+        "zip": "951-8167",
+        "city": "Niigata-shi",
+        "address": "31677 Sutherland Alley"
+      },
+      "interests": [
+        "puzzles",
+        "reading",
+        "singing"
+      ],
+      "liked": true
+    }
+  ],
   "connections": [
-  {
-    "id": 1,
-    "user1": 1,
-    "user2": 25,
-    "accepted": true
-  },
-  {
-    "id": 2,
-    "user1": 1,
-    "user2": 24,
-    "accepted": false
-  },
-  {
-    "id": 1,
-    "user1": 3,
-    "user2": 23,
-    "accepted": false
-  },
-  {
-    "id": 1,
-    "user1": 4,
-    "user2": 22,
-    "accepted": true
-  },
-  {
-    "id": 1,
-    "user1": 5,
-    "user2": 21,
-    "accepted": true
-  }
-]
+    {
+      "id": 1,
+      "user1": 1,
+      "user2": 25,
+      "accepted": true
+    },
+    {
+      "id": 2,
+      "user1": 1,
+      "user2": 24,
+      "accepted": false
+    },
+    {
+      "id": 3,
+      "user1": 1,
+      "user2": 23,
+      "accepted": false
+    },
+    {
+      "id": 4,
+      "user1": 1,
+      "user2": 22,
+      "accepted": true
+    },
+    {
+      "id": 5,
+      "user1": 1,
+      "user2": 21,
+      "accepted": true
+    }
+  ]
 }

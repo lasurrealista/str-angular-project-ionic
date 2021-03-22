@@ -15,6 +15,11 @@
             <p>Address {{ user.location.address }}</p>
             <p>Zip: {{ user.location.zip }}</p>
             <p>City: {{ user.location.city }}</p>
+            <div class="buttons-div">
+              <ion-fab-button (click)="toDislike(false, connection)" class="mx-auto" color="danger">
+                <ion-icon name="thumbs-down"></ion-icon>
+              </ion-fab-button>
+            </div>
           </ion-card-content>
         </ion-card>
       </div>

@@ -24,4 +24,18 @@ export class ProfileCardComponent implements OnInit {
   searchEvent(event: Event): void {
     this.phrase = (event.target as HTMLInputElement).value;
   }
+
+  toLike(liked: boolean, user: User) {
+    user.liked = liked;
+    this.userService.update(user).subscribe(
+      () => this.userService.getAll()
+      )
+  }
+
+  toDislike(liked: boolean, user: User) {
+    user.liked = liked;
+    this.userService.update(user).subscribe(
+    () => this.userService.getAll()
+  )
+}
 }
