@@ -1,19 +1,18 @@
 <ion-content fullscreen>
   <div *ngIf="user$ | async as user">
 
-    <form [formGroup]="userForm" (ngSubmit)="onSubmit(userForm)">
+    <form [formGroup]="userForm" (ngSubmit)="onSubmit(userForm, user)">
 
       <ion-item>
         <ion-label class="label" position="floating">Name</ion-label>
-        <ion-input formControlName="name" class="input" inputmode="text" name="name" [(ngModel)]="user.name" required>
+        <ion-input formControlName="name" class="input" inputmode="text" name="name" required>
         </ion-input>
       </ion-item>
       <app-form-input-error [form]="userForm" formInput='name'></app-form-input-error>
 
       <ion-item>
         <ion-label class="label" position="floating">Gender</ion-label>
-        <ion-input formControlName="gender" class="input" inputmode="text" name="gender" [(ngModel)]="user.gender"
-          required>
+        <ion-input formControlName="gender" class="input" inputmode="text" name="gender" required>
         </ion-input>
         <small class="small">Please enter 'Female' or 'Male.'</small>
       </ion-item>
@@ -21,30 +20,28 @@
 
       <ion-item>
         <ion-label class="label" position="floating">Age</ion-label>
-        <ion-input formControlName="age" class="input" inputmode="number" name="age" [(ngModel)]="user.age" required>
+        <ion-input formControlName="age" class="input" inputmode="number" name="age" required>
         </ion-input>
       </ion-item>
       <app-form-input-error [form]="userForm" formInput='age'></app-form-input-error>
 
       <ion-item>
         <ion-label class="label" position="floating">Description</ion-label>
-        <ion-textarea formControlName="description" name="description" [(ngModel)]="user.description" required>
+        <ion-textarea formControlName="description" name="description" required>
         </ion-textarea>
       </ion-item>
       <app-form-input-error [form]="userForm" formInput='description'></app-form-input-error>
 
       <ion-item>
         <ion-label class="label" position="floating" required>Zip Code</ion-label>
-        <ion-input formControlName="zip" class="input" inputmode="text" placeholder="Zip Code" name="zip"
-          [(ngModel)]="user.location.zip" required>
+        <ion-input formControlName="zip" class="input" inputmode="text" placeholder="Zip Code" name="zip" required>
         </ion-input>
       </ion-item>
       <app-form-input-error [form]="userForm" formInput='zip'></app-form-input-error>
 
       <ion-item>
         <ion-label class="label" position="floating" required>City</ion-label>
-        <ion-input formControlName="city" inputmode="text" placeholder="City" name="city"
-          [(ngModel)]="user.location.city" required>
+        <ion-input formControlName="city" inputmode="text" placeholder="City" name="city" required>
         </ion-input>
       </ion-item>
       <app-form-input-error [form]="userForm" formInput='city'></app-form-input-error>
@@ -52,29 +49,28 @@
       <ion-item>
         <ion-label class="label" position="floating" required>Address</ion-label>
         <ion-input formControlName="address" class="input" inputmode="text" placeholder="Address" name="address"
-          [(ngModel)]="user.location.address" required></ion-input>
+          required></ion-input>
       </ion-item>
       <app-form-input-error [form]="userForm" formInput='address'></app-form-input-error>
 
       <ion-item>
         <ion-label class="label" position="floating">Interests / 1</ion-label>
-        <ion-input formControlName="interestFirst" class="input" placeholder="My hobby is..." name="interestFirst"
-          [(ngModel)]="user.interests[0]"></ion-input>
+        <ion-input formControlName="interestFirst" class="input" placeholder="My hobby is..." name="interestFirst">
+        </ion-input>
       </ion-item>
       <app-form-input-error [form]="userForm" formInput='interestFirst'></app-form-input-error>
 
       <ion-item>
         <ion-label class="label" position="floating">Interests / 2</ion-label>
-        <ion-input formControlName="interestSecond" placeholder="My hobby is..." name="interestSecond"
-          [(ngModel)]="user.interests[1]">
+        <ion-input formControlName="interestSecond" placeholder="My hobby is..." name="interestSecond">
         </ion-input>
       </ion-item>
       <app-form-input-error [form]="userForm" formInput='interestSecond'></app-form-input-error>
 
       <ion-item>
         <ion-label class="label" position="floating">Interests / 3</ion-label>
-        <ion-input formControlName="interestThird" class="input" placeholder="My hobby is..." name="interestThird"
-          [(ngModel)]="user.interests[2]"></ion-input>
+        <ion-input formControlName="interestThird" class="input" placeholder="My hobby is..." name="interestThird">
+        </ion-input>
       </ion-item>
       <app-form-input-error [form]="userForm" formInput='interestThird'></app-form-input-error>
 
